@@ -12,17 +12,50 @@ struct progress_Indicator: View {
         VStack{
             ProgressView(value: 10, total: 15)
             HStack{
-                VStack {
+                VStack(alignment: .leading) {
                     Text("Seconds Elapsed")
                     Label("300", systemImage: "hourglass.tophalf.fill")
                 }
                 Spacer()
-                VStack {
+                       VStack (alignment: .trailing ){
                     Text("Seconds Remaining")
                     Label("600", systemImage: "hourglass.bottomhalf.fill")
                 }}
+            .accessibilityElement(children: .ignore)
+                .accessibilityLabel("Time remaining")
+                .accessibilityValue("10 minutes")
+            
+            //circle
+            Circle()   .strokeBorder(lineWidth: 20)
+            
+            HStack {
+                       Text("Speaker 1 of 3")
+                Spacer( )
+                       Button(action: {}) {
+                           Image(systemName: "forward.fill")
+                       }
+            } .accessibilityLabel("Next speaker")
+                .padding()
         
         }
+        
+        //next Question Ansert task
+        VStack {
+            Text("Inventory")
+                .font(.title)
+            HStack {
+                Label("Paperclips", systemImage: "paperclip.circle.fill")
+                Text("3")
+            }
+        }
+        
+        //accebility
+        Button(action: {}) {
+            Label("Skip song", systemImage: "forward")
+        }
+        .accessibilityLabel(Text("Skip song"))
+        
+        
         
     }
 }
