@@ -14,6 +14,7 @@
 		04641F992A8A39D200D69CFC /* swift_uiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04641F982A8A39D200D69CFC /* swift_uiTests.swift */; };
 		04641FA32A8A39D200D69CFC /* swift_uiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04641FA22A8A39D200D69CFC /* swift_uiUITests.swift */; };
 		04641FA52A8A39D200D69CFC /* swift_uiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04641FA42A8A39D200D69CFC /* swift_uiUITestsLaunchTests.swift */; };
+		04641FB62A8A521C00D69CFC /* progress_Indicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04641FB52A8A521C00D69CFC /* progress_Indicator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		04641F9E2A8A39D200D69CFC /* swift-uiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-uiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04641FA22A8A39D200D69CFC /* swift_uiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_uiUITests.swift; sourceTree = "<group>"; };
 		04641FA42A8A39D200D69CFC /* swift_uiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_uiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		04641FB52A8A521C00D69CFC /* progress_Indicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = progress_Indicator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				04641F892A8A39D100D69CFC /* ContentView.swift */,
 				04641F8B2A8A39D200D69CFC /* Assets.xcassets */,
 				04641F8D2A8A39D200D69CFC /* Preview Content */,
+				04641FB52A8A521C00D69CFC /* progress_Indicator.swift */,
 			);
 			path = "swift-ui";
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			files = (
 				04641F8A2A8A39D100D69CFC /* ContentView.swift in Sources */,
 				04641F882A8A39D100D69CFC /* swift_uiApp.swift in Sources */,
+				04641FB62A8A521C00D69CFC /* progress_Indicator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
