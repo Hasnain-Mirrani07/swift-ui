@@ -49,7 +49,7 @@ struct progress_Indicator: View {
             }
         }
         
-        //accebility
+        //accebility code
         Button(action: {}) {
             Label("Skip song", systemImage: "forward")
         }
