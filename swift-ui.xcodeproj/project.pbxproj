@@ -15,6 +15,7 @@
 		04641FA32A8A39D200D69CFC /* swift_uiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04641FA22A8A39D200D69CFC /* swift_uiUITests.swift */; };
 		04641FA52A8A39D200D69CFC /* swift_uiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04641FA42A8A39D200D69CFC /* swift_uiUITestsLaunchTests.swift */; };
 		04641FB62A8A521C00D69CFC /* progress_Indicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04641FB52A8A521C00D69CFC /* progress_Indicator.swift */; };
+		04641FB82A8A65E400D69CFC /* image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04641FB72A8A65E400D69CFC /* image.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		04641FA22A8A39D200D69CFC /* swift_uiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_uiUITests.swift; sourceTree = "<group>"; };
 		04641FA42A8A39D200D69CFC /* swift_uiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_uiUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		04641FB52A8A521C00D69CFC /* progress_Indicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = progress_Indicator.swift; sourceTree = "<group>"; };
+		04641FB72A8A65E400D69CFC /* image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = image.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				04641F8B2A8A39D200D69CFC /* Assets.xcassets */,
 				04641F8D2A8A39D200D69CFC /* Preview Content */,
 				04641FB52A8A521C00D69CFC /* progress_Indicator.swift */,
+				04641FB72A8A65E400D69CFC /* image.swift */,
 			);
 			path = "swift-ui";
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04641F8A2A8A39D100D69CFC /* ContentView.swift in Sources */,
+				04641FB82A8A65E400D69CFC /* image.swift in Sources */,
 				04641F882A8A39D100D69CFC /* swift_uiApp.swift in Sources */,
 				04641FB62A8A521C00D69CFC /* progress_Indicator.swift in Sources */,
 			);
