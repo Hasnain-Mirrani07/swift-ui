@@ -16,6 +16,8 @@
 		04641FA52A8A39D200D69CFC /* swift_uiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04641FA42A8A39D200D69CFC /* swift_uiUITestsLaunchTests.swift */; };
 		04641FB62A8A521C00D69CFC /* progress_Indicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04641FB52A8A521C00D69CFC /* progress_Indicator.swift */; };
 		04641FB82A8A65E400D69CFC /* image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04641FB72A8A65E400D69CFC /* image.swift */; };
+		04641FBA2A8A6DD800D69CFC /* mapview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04641FB92A8A6DD800D69CFC /* mapview.swift */; };
+		04641FBD2A8A6F5300D69CFC /* dashbaord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04641FBC2A8A6F5300D69CFC /* dashbaord.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		04641FA42A8A39D200D69CFC /* swift_uiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_uiUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		04641FB52A8A521C00D69CFC /* progress_Indicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = progress_Indicator.swift; sourceTree = "<group>"; };
 		04641FB72A8A65E400D69CFC /* image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = image.swift; sourceTree = "<group>"; };
+		04641FB92A8A6DD800D69CFC /* mapview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapview.swift; sourceTree = "<group>"; };
+		04641FBC2A8A6F5300D69CFC /* dashbaord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dashbaord.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +105,9 @@
 				04641F872A8A39D100D69CFC /* swift_uiApp.swift */,
 				04641F892A8A39D100D69CFC /* ContentView.swift */,
 				04641F8B2A8A39D200D69CFC /* Assets.xcassets */,
+				04641FBB2A8A6F2400D69CFC /* MapViewDashboard */,
 				04641F8D2A8A39D200D69CFC /* Preview Content */,
 				04641FB52A8A521C00D69CFC /* progress_Indicator.swift */,
-				04641FB72A8A65E400D69CFC /* image.swift */,
 			);
 			path = "swift-ui";
 			sourceTree = "<group>";
@@ -131,6 +135,16 @@
 				04641FA42A8A39D200D69CFC /* swift_uiUITestsLaunchTests.swift */,
 			);
 			path = "swift-uiUITests";
+			sourceTree = "<group>";
+		};
+		04641FBB2A8A6F2400D69CFC /* MapViewDashboard */ = {
+			isa = PBXGroup;
+			children = (
+				04641FBC2A8A6F5300D69CFC /* dashbaord.swift */,
+				04641FB92A8A6DD800D69CFC /* mapview.swift */,
+				04641FB72A8A65E400D69CFC /* image.swift */,
+			);
+			path = MapViewDashboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,9 +277,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04641FBA2A8A6DD800D69CFC /* mapview.swift in Sources */,
 				04641F8A2A8A39D100D69CFC /* ContentView.swift in Sources */,
 				04641FB82A8A65E400D69CFC /* image.swift in Sources */,
 				04641F882A8A39D100D69CFC /* swift_uiApp.swift in Sources */,
+				04641FBD2A8A6F5300D69CFC /* dashbaord.swift in Sources */,
 				04641FB62A8A521C00D69CFC /* progress_Indicator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
