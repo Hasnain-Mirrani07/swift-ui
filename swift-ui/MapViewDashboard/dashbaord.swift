@@ -32,7 +32,7 @@ struct DashboardView: View {
 
                           Text("About Turtle Rock")
                               .font(.title3)
-                Text("Descriptive text goes here.").font(.subheadline).foregroundColor(.secondary)
+                Text("Descriptlkjhkjhkive text goes here.").font(.subheadline).foregroundColor(.secondary)
                       }
                       .padding()
 
